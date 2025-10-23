@@ -13,6 +13,6 @@ typedef struct s_list
 void	ft_print_node(t_list *list);
 void	ft_insert_node(int x, t_list **list);
 void	ft_insert_node_last(int x, t_list **list);
-void	ft_insert_at_index(int x, t_list **list, int index)
+void	ft_insert_at_index(int x, t_list **list, int index);
 
 #endif
