@@ -13,7 +13,8 @@ int main()
 	{
 		printf("Enter the number \n");
 		scanf("%d", &x);
-		ft_insert_node(x, &list);
+		ft_insert_node_last(x, &list);
+		//ft_insert_node(x, &list);
 		ft_print_node(list);
 		i++;
 	}
