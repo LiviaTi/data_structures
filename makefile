@@ -11,6 +11,7 @@ CFLAGS      = -Wall -Wextra -Werror
 SRCS        =	linked_list/ft_insert_node.c \
 				linked_list/ft_print_node.c \
 				linked_list/ft_insert_node_last.c \
+				linked_list/ft_insert_at_index.c \
             	main.c
 
 OBJS        = $(SRCS:.c=.o)
